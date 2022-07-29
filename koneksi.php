@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "projek";
+$db   = "sample";
 
 $koneksi = mysqli_connect($host, $user, $pass, $db);
 if (!$koneksi) {

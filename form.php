@@ -90,7 +90,7 @@ $jml_kriteria = count($kriteria);
               $loopdata = '<select class="form-control" name="nilai'.$row[0].'"><option>Nilai</option>';
 
               foreach ($loop as $key => $value) {
-                $loopdata .= '<option value="' . $key+1 . '">'.$key+1 . $value . '</option>' . "\r\n";
+                $loopdata .= '<option value="' . $key++ . '">'.$key++ . $value . '</option>' . "\r\n";
               }
               $loopdata .= '</select>';
               
